@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import 'boxicons/css/boxicons.min.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* rest of your global styles below... */
 
 :root {
   --background: #ffffff;
