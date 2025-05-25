@@ -14,7 +14,7 @@ export default function Home() {
         <div
           className="h-screen w-full flex flex-col items-center justify-center px-6 py-20 mt-0 text-white text-center pt-20 bg-black/60"
           style={{
-            backgroundImage: "url('/img/lib-bg.jpg')",
+            backgroundImage: "url('/img/lib-img.jpg')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="rounded-2xl overflow-hidden border-4 border-yellow-400 shadow-lg w-[480px] h-[320px] flex items-center justify-center bg-gray-800">
               <Image
-                src="/img/.jpg"
+                src="/img/red-img.jpeg"
                 alt="image preview"
                 width={480}
                 height={320}
@@ -89,44 +89,44 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">James Smith</h3>
+              <Image src="/img/furio.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Furio, Ronan B.</h3>
               <p className="text-gray-400">Backend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Lily Jane</h3>
+              <Image src="/img/elise.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Gapas, Elise Ann</h3>
               <p className="text-gray-400">Frontend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Shan Vega</h3>
+              <Image src="/img/paolo.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Geva, Paolo</h3>
               <p className="text-gray-400">Frontend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Bella Montefalco</h3>
+              <Image src="/img/habal.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Habal, Lorelyn</h3>
               <p className="text-gray-400">Frontend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Miles Lish</h3>
+              <Image src="/img/natasha.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Hipos, Natasha</h3>
               <p className="text-gray-400">Backend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Dennis Gray</h3>
-              <p className="text-gray-400">Frontend Developer</p>
+              <Image src="/img/jamisal.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Jamisal, Jessica Mae G.</h3>
+              <p className="text-gray-400">Full Stack Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Drew Joseph</h3>
+              <Image src="/img/vale.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Vale, Hugh</h3>
               <p className="text-gray-400">Backend Developer</p>
             </div>
           </div>
@@ -138,11 +138,10 @@ export default function Home() {
       id="services"
       className="relative bg-cover bg-center bg-no-repeat text-white py-24 px-6"
       style={{
-        backgroundImage: "url('/img/lib1.jpg')",
+        backgroundImage: "url('/img/library.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-45"></div>
-
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8">Our Services</h2>
         <p className="text-lg md:text-2xl text-gray-200 mb-14 max-w-2xl mx-auto">
@@ -169,7 +168,7 @@ export default function Home() {
       {/* CONTACT */}
       <section id="contact" className="min-h-screen w-full text-white py-16 px-4 pt-40"
         style={{
-          backgroundImage: "url('/img/lib1.jpg')",
+          backgroundImage: "url('/img/lib.jpg')",
         }}>
         <div className="max-w-6xl mx-auto bg-gray-900 rounded-xl p-10 shadow-lg">
           <div className="flex flex-col md:flex-row gap-10">

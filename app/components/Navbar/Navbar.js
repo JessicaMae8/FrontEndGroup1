@@ -14,10 +14,10 @@ export default function Navbar() {
       {/* Logo */}
       <div className="logo flex items-center space-x-2 italic">
   <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-yellow-500 flex items-center justify-center bg-white">
-    <Image src="/img/logos.jpg" alt="Logo" width={48} height={48} className="object-cover w-12 h-12" />
+    <Image src="/img/logo.png" alt="Logo" width={48} height={48} className="object-cover w-12 h-12" />
   </div>
   <span className="text-white text-xl font-bold">
-    G5<span className="text-yellow-500 text-xl font-bold Logo">LMS</span>
+    G1<span className="text-yellow-500 text-xl font-bold Logo">LibraNet</span>
   </span>
 </div>
 
