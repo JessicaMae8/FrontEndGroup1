@@ -105,7 +105,14 @@ const AddModal = ({ isOpen, onClose, onSave }) => {
                                     className="hidden"
                                 />
                             </div>
-                            <Image src={book.image} alt={book.title} width={64} height={96} className="object-cover rounded" />
+                            <Image
+                                src={image}
+                                alt="Book"
+                                width={64}
+                                height={96}
+                                className="object-cover rounded"
+                            />
+
                         </div>
                     </div>
                 </div>
