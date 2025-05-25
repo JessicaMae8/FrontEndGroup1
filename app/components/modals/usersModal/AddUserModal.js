@@ -1,11 +1,9 @@
 'use client';
 import React, { useState } from 'react';
 import { FaTrash, FaEdit, FaEye, FaPlus, FaSearch, FaSun, FaMoon } from 'react-icons/fa';
-import AddUserModal from '@/components/modals/usersModal/AddUserModal';
 import ViewUserModal from '../../components/modals/usersModal/ViewUserModal';
 import EditUserModal from '../../components/modals/usersModal/EditUserModal';
 import DeleteUserModal from '../../components/modals/usersModal/DeleteUserModal';
-// ... any other imports
 
 
 const AddUserModal = ({ isOpen, onClose, onSave }) => {

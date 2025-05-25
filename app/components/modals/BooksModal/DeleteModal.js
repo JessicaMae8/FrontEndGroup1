@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'; // ✅ Add this line
 
 const DeleteModal = ({ isOpen, onClose, onDelete, book }) => {
     if (!isOpen || !book) return null;
@@ -11,9 +12,11 @@ const DeleteModal = ({ isOpen, onClose, onDelete, book }) => {
                     <p className="text-center">
                         Are you sure you want to delete <span className="font-bold">{book.title}</span>?
                     </p>
-                    <img
+                    <Image
                         src={book.image}
                         alt={book.title}
+                        width={64}
+                        height={96}
                         className="h-24 w-16 object-cover rounded"
                     />
                 </div>

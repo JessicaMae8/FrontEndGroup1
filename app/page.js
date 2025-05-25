@@ -29,22 +29,22 @@ export default function Home() {
           Fast, simple and seamlessly organized.
         </p>
       </div>
-      <a
+      <Link
               href="/admin"
               onClick={() => setShowAuthModal(true)}
               className="bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-500 hover:to-orange-500 
               text-white font-semibold px-6 py-3 rounded-full transition duration-300 mb-8"
             >
               Admin Panel Test ➤
-            </a>
-      <a
+            </Link>
+      <Link
               href="/library"
               onClick={() => setShowAuthModal(true)}
               className="bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-500 hover:to-orange-500 
               text-white font-semibold px-6 py-3 rounded-full transition duration-300 mb-8"
             >
               Library for Users Test ➤
-            </a>
+            </Link>
       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         </div>
         </div>
@@ -58,14 +58,14 @@ export default function Home() {
             <p className="text-gray-300 mb-6">
               Welcome to the Future of Library Management
               <br /><br />
-              Our Library Management System is a comprehensive digital solution designed to revolutionize how libraries function. Whether you're an administrator overseeing the entire collection or a user simply looking to borrow a book, our system offers a seamless, intuitive experience tailored to your needs.
+              Our Library Management System is a comprehensive digital solution designed to revolutionize how libraries function. Whether you&apos;re an administrator overseeing the entire collection or a user simply looking to borrow a book, our system offers a seamless, intuitive experience tailored to your needs.
               <br /><br />
               From cataloging thousands of titles to managing user profiles and monitoring borrowing activity, every feature has been thoughtfully built to reduce manual work and increase efficiency. The system supports real-time inventory tracking, helping you instantly locate books, monitor availability, and avoid redundancies. Automated workflows handle common tasks like issuing and returning books, sending due date reminders, and generating reports — freeing up your time for what truly matters: serving readers.
               <br /><br />
               The clean, easy-to-navigate dashboard puts powerful tools at your fingertips. With clear visual insights, quick search capabilities, and responsive design, managing your library has never been this simple or smart.
             </p>
             <p className="text-gray-400">
-              Whether you're managing a personal home library, a school media center, or a public institution, our system adapts to your environment and scales with your collection. By combining automation, accessibility, and modern design, we’re not just supporting libraries — we’re transforming them for the digital age.
+              Whether you&apos;re managing a personal home library, a school media center, or a public institution, our system adapts to your environment and scales with your collection. By combining automation, accessibility, and modern design, we&apos;re not just supporting libraries — we&apos;re transforming them for the digital age.
             </p>
           </div>
           <div className="flex justify-center">

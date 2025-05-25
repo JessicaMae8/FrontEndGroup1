@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { FaUpload } from 'react-icons/fa';
+import Image from 'next/image';
+
 
 const AddModal = ({ isOpen, onClose, onSave }) => {
     const [title, setTitle] = useState('');
@@ -103,7 +105,7 @@ const AddModal = ({ isOpen, onClose, onSave }) => {
                                     className="hidden"
                                 />
                             </div>
-                            <img src={image} alt="Book" className="mt-2 h-24 w-16 object-cover rounded" />
+                            <Image src={book.image} alt={book.title} width={64} height={96} className="object-cover rounded" />
                         </div>
                     </div>
                 </div>
