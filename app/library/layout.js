@@ -20,7 +20,7 @@ export default function LibraryLayout({ children }) {
                             <div className="logo flex items-center space-x-1 italic">
                                 <Image src="/img/logo.png" width={53} height={48} alt="Logo" />
                                 <span className="text-white text-2xl font-bold">
-                                    G3<span className="text-yellow-500 text-2xl font-bold">LMS</span>
+                                    G1<span className="text-yellow-500 text-2xl font-bold">LibraNet</span>
                                 </span>
                             </div>
                         </div>

@@ -14,31 +14,31 @@ export default function Navbar() {
       {/* Logo */}
       <div className="logo flex items-center space-x-2 italic">
   <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-yellow-500 flex items-center justify-center bg-white">
-    <Image src="/img/.jpg" alt="" width={48} height={48} className="object-cover w-12 h-12" />
+    <Image src="/img/logo.png" alt="" width={48} height={48} className="object-cover w-12 h-12" />
   </div>
   <span className="text-white text-xl font-bold">
-    G1<span className="text-yellow-500 text-xl font-bold Logo">LibraNet</span>
+    G1<span className="text-green-500 text-xl font-bold Logo">LibraNet</span>
   </span>
 </div>
 
       <ul className="hidden md:flex space-x-6 text-white font-bold">
       <li>
-        <Link href="#home" className="hover:text-yellow-500">
+        <Link href="#home" className="hover:text-blue-500">
           Home
         </Link>
       </li>
       <li>
-        <Link href="#about" className="hover:text-yellow-500">
+        <Link href="#about" className="hover:text-blue-500">
           About
         </Link>
       </li>
       <li>
-        <Link href="#services" className="hover:text-yellow-500">
+        <Link href="#services" className="hover:text-blue-500">
           Services
         </Link>
       </li>
       <li>
-        <Link href="#contact" className="hover:text-yellow-500">
+        <Link href="#contact" className="hover:text-blue-500">
           Contact
         </Link>
       </li>

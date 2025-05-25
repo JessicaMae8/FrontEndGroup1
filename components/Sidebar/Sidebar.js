@@ -49,7 +49,7 @@ export default function AdminLayout({ children }) {
                 <div className="logo-details">
                     
                     <span className="logo-icon">
-                        <Image src="/img/admin.jpg" alt="Profile" width={32} height={32} className="mx-auto rounded-full mb-0 mr-3 ml-2" />
+                        <Image src="/img/logo.png" alt="Profile" width={32} height={32} className="mx-auto rounded-full mb-0 mr-3 ml-2" />
                     </span>
                     {/* <span className="logo-icon"><i className="bx bx-user-circle"></i></span> */}
                     <div className="logo_name">G1LibraNet</div>
