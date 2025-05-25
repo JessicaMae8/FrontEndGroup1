@@ -83,55 +83,65 @@ export default function Home() {
       </section>
 
       {/* GROUP PROFILES */}
-      <section className="bg-white-900 text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Team</h2>
+<section className="bg-white text-white py-16 px-4">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Our Team</h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/furio.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Furio, Ronan B.</h3>
-              <p className="text-gray-400">Backend Developer</p>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/elise.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Gapas, Elise Ann</h3>
-              <p className="text-gray-400">Frontend Developer</p>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/paolo.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Geva, Paolo</h3>
-              <p className="text-gray-400">Backend Developer</p>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/habal.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Habal, Lorelyn</h3>
-              <p className="text-gray-400">Frontend Developer</p>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/natasha.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Hipos, Natasha</h3>
-              <p className="text-gray-400">Backend Developer</p>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/jamisal.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Jamisal, Jessica Mae G.</h3>
-              <p className="text-gray-400">Backend Developer</p>
-            </div>
-
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/vale.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Vale, Hugh</h3>
-              <p className="text-gray-400">Frontend Developer</p>
-            </div>
-          </div>
+    <div className="overflow-x-auto">
+      <div className="flex gap-6 min-w-full px-2">
+        {/* Card 1 */}
+        <div className="min-w-[250px] bg-gray-800 p-6 rounded-lg text-center shadow-md flex-shrink-0">
+          <Image src="/img/furio.jpg" alt="Furio, Ronan B." width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Furio, Ronan B.</h3>
+          <p className="text-gray-400">Backend Developer</p>
         </div>
-      </section>
+
+        {/* Card 2 */}
+        <div className="min-w-[250px] bg-gray-800 p-6 rounded-lg text-center shadow-md flex-shrink-0">
+          <Image src="/img/elise.jpg" alt="Gapas, Elise Ann" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Gapas, Elise Ann</h3>
+          <p className="text-gray-400">Frontend Developer</p>
+        </div>
+
+        {/* Card 3 */}
+        <div className="min-w-[250px] bg-gray-800 p-6 rounded-lg text-center shadow-md flex-shrink-0">
+          <Image src="/img/paolo.jpg" alt="Geva, Paolo" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Geva, Paolo</h3>
+          <p className="text-gray-400">Backend Developer</p>
+        </div>
+
+        {/* Card 4 */}
+        <div className="min-w-[250px] bg-gray-800 p-6 rounded-lg text-center shadow-md flex-shrink-0">
+          <Image src="/img/habal.jpg" alt="Habal, Lorelyn" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Habal, Lorelyn</h3>
+          <p className="text-gray-400">Frontend Developer</p>
+        </div>
+
+        {/* Card 5 */}
+        <div className="min-w-[250px] bg-gray-800 p-6 rounded-lg text-center shadow-md flex-shrink-0">
+          <Image src="/img/natasha.jpg" alt="Hipos, Natasha" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Hipos, Natasha</h3>
+          <p className="text-gray-400">Backend Developer</p>
+        </div>
+
+        {/* Card 6 */}
+        <div className="min-w-[250px] bg-gray-800 p-6 rounded-lg text-center shadow-md flex-shrink-0">
+          <Image src="/img/jamisal.jpg" alt="Jamisal, Jessica Mae G." width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Jamisal, Jessica Mae G.</h3>
+          <p className="text-gray-400">Backend Developer</p>
+        </div>
+
+        {/* Card 7 */}
+        <div className="min-w-[250px] bg-gray-800 p-6 rounded-lg text-center shadow-md flex-shrink-0">
+          <Image src="/img/vale.jpg" alt="Vale, Hugh" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+          <h3 className="text-lg font-semibold">Vale, Hugh</h3>
+          <p className="text-gray-400">Frontend Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* SERVICE */}
           <section

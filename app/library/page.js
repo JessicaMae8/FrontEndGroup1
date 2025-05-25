@@ -13,7 +13,7 @@ export default function LibraryPage() {
         },
         {
             id: 2,
-            title: 'Dont Belive Everything You Think',
+            title: 'Dont Believe Everything You Think',
             cover: '/img/book2.jpg',
             status: 'Coming Soon',
         },
