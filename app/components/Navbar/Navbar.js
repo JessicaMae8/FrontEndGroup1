@@ -17,7 +17,7 @@ export default function Navbar() {
     <Image src="/img/logo.png" alt="Logo" width={48} height={48} className="object-cover w-12 h-12" />
   </div>
   <span className="text-white text-xl font-bold">
-    G1<span className="text-yellow-500 text-xl font-bold Logo">LibraNet</span>
+    G1<span className="text-brown-500 text-xl font-bold Logo">LibraNet</span>
   </span>
 </div>
 

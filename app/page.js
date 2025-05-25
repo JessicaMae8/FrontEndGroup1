@@ -32,7 +32,7 @@ export default function Home() {
       <Link
               href="/admin"
               onClick={() => setShowAuthModal(true)}
-              className="bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-500 hover:to-orange-500 
+              className="bg-gradient-to-r from-blue-500 to-green-600 hover:from-yellow-500 hover:to-orange-500 
               text-white font-semibold px-6 py-3 rounded-full transition duration-300 mb-8"
             >
               Admin Panel Test ➤
@@ -40,7 +40,7 @@ export default function Home() {
       <Link
               href="/library"
               onClick={() => setShowAuthModal(true)}
-              className="bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-500 hover:to-orange-500 
+              className="bg-gradient-to-r from-blue-500 to-green-600 hover:from-yellow-500 hover:to-orange-500 
               text-white font-semibold px-6 py-3 rounded-full transition duration-300 mb-8"
             >
               Library for Users Test ➤
@@ -103,7 +103,7 @@ export default function Home() {
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
               <Image src="/img/paolo.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
               <h3 className="text-lg font-semibold">Geva, Paolo</h3>
-              <p className="text-gray-400">Frontend Developer</p>
+              <p className="text-gray-400">Backend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
@@ -121,13 +121,13 @@ export default function Home() {
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
               <Image src="/img/jamisal.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
               <h3 className="text-lg font-semibold">Jamisal, Jessica Mae G.</h3>
-              <p className="text-gray-400">Full Stack Developer</p>
+              <p className="text-gray-400">Backend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
               <Image src="/img/vale.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
               <h3 className="text-lg font-semibold">Vale, Hugh</h3>
-              <p className="text-gray-400">Backend Developer</p>
+              <p className="text-gray-400">Frontend Developer</p>
             </div>
           </div>
         </div>
@@ -143,24 +143,24 @@ export default function Home() {
     >
       <div className="absolute inset-0 bg-black bg-opacity-45"></div>
       <div className="relative z-10 max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-8">Our Services</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-8">LibraNet Services Offered</h2>
         <p className="text-lg md:text-2xl text-gray-200 mb-14 max-w-2xl mx-auto">
           Enjoy Easy Access to All Your Reads.
         </p>
 
-        <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-8 rounded-lg shadow-md mb-8">
-          <h3 className="text-2xl font-semibold mb-3">Book Borrowing</h3>
-          <p className="text-white text-base">Borrow books seamlessly with our smart borrowing system.</p>
+        <div className="bg-gradient-to-r from-blue-500 to-green-800 p-8 rounded-lg shadow-md mb-8">
+          <h3 className="text-2xl font-semibold mb-3">Special Collections</h3>
+          <p className="text-white text-base">Rare books, local history archives, and multimedia content.</p>
         </div>
 
-        <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-8 rounded-lg shadow-md mb-8">
-          <h3 className="text-2xl font-semibold mb-3">Online Catalog</h3>
-          <p className="text-white text-base">Browse our digital catalog from any device, anytime.</p>
+        <div className="bg-gradient-to-r from-blue-500 to-green-800 p-8 rounded-lg shadow-md mb-8">
+          <h3 className="text-2xl font-semibold mb-3">Book Circulation</h3>
+          <p className="text-white text-base">Borrow, return, and renew books easily with our lending system.</p>
         </div>
 
-        <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-8 rounded-lg shadow-md">
-          <h3 className="text-2xl font-semibold mb-3">Admin Tools</h3>
-          <p className="text-white text-base">Manage users, books, and activity from an intuitive dashboard.</p>
+        <div className="bg-gradient-to-r from-blue-500 to-green-800 p-8 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-3">Library Membership</h3>
+          <p className="text-white text-base">Register to borrow books and access digital content.</p>
         </div>
       </div>
     </section>
@@ -221,7 +221,7 @@ export default function Home() {
                 <div>
                   <button
                     type="button"
-                    className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-6 rounded-full transition duration-300"
+                    className="bg-green-500 hover:bg-blue-600 text-gray-900 font-semibold py-2 px-6 rounded-full transition duration-300"
                   >
                     Send Now
                   </button>
